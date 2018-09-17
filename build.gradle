@@ -37,6 +37,8 @@ dependencies {
 	compile group: 'de.codecentric', name: 'spring-boot-admin-server-ui', version: '2.0.2'
 	// https://mvnrepository.com/artifact/be.ordina/microservices-dashboard-ui
 	compile group: 'be.ordina', name: 'microservices-dashboard-ui', version: '1.0.1'
+	// https://mvnrepository.com/artifact/be.ordina/microservices-dashboard-server
+	compile group: 'be.ordina', name: 'microservices-dashboard-server', version: '1.0.1'
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
 
