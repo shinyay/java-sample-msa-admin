@@ -31,6 +31,12 @@ ext {
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-actuator')
 	compile('org.springframework.cloud:spring-cloud-starter-netflix-eureka-client')
+	// https://mvnrepository.com/artifact/de.codecentric/spring-boot-admin-server
+	compile group: 'de.codecentric', name: 'spring-boot-admin-server', version: '2.0.2'
+	// https://mvnrepository.com/artifact/de.codecentric/spring-boot-admin-server-ui
+	compile group: 'de.codecentric', name: 'spring-boot-admin-server-ui', version: '2.0.2'
+	// https://mvnrepository.com/artifact/be.ordina/microservices-dashboard-ui
+	compile group: 'be.ordina', name: 'microservices-dashboard-ui', version: '1.0.1'
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
 
